@@ -1,0 +1,12 @@
+input[type="text"]:not(:read-only){
+    width: 200px;
+    color:red;
+    background-color: rgba(255, 255, 0, 0.5);
+}
+label,
+button{
+    cursor:pointer
+}
+table tr{
+    
+}

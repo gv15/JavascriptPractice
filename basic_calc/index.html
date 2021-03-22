@@ -6,21 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic Calc</title>
     <script src="main.js"></script>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <h1>Basic Calc</h1>
     <table>
         <tr>
-            <td>Enter First Number</td>
+            <td><label for="first">Enter First Number</label></td>
             <td><input id="first" type="text" placeholder="Enter first number"></td>
         </tr>
         <tr>
-            <td>Enter Second Number</td>
+            <td><label for="second">Enter Second Number</label></td>
             <td><input id="second" type="text" placeholder="Enter second number"></td>
         </tr>
         <tr>
             <td>Result</td>
-            <td><input id="result" readOnly type="text" placeholder="000000000000"></td>
+            <td><input id="result" readonly type="text" placeholder="000000000000"></td>
         </tr>
         <tr>
             <td><button id="reset">Reset</button></td>
