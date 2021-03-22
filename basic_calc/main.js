@@ -42,6 +42,6 @@ function computeResult(){
     return functionObj[this.id](first, second);
 }
 function printResult(){
-    
-    document.getElementById("result").value = computeResult.call(this);
+     var result = computeResult.call(this);
+    document.getElementById("result").value = isNan(result)?0:result;
 }
