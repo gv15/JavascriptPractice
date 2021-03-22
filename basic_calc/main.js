@@ -43,5 +43,5 @@ function computeResult(){
 }
 function printResult(){
      var result = computeResult.call(this);
-    document.getElementById("result").value = isNan(result)?0:result;
+    document.getElementById("result").value = isNaN(result)?0:result;
 }
