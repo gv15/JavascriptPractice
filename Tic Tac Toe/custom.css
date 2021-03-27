@@ -1,0 +1,28 @@
+#list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    /* display: flex; */
+    display: none;
+    width: 25%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+ul li {
+    width: 33%;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: lightslategrey;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    width: 90%;
+    height: 50px;
+    border: 1px solid lightslategrey;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: lightsteelblue;
+}
