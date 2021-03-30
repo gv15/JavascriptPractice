@@ -26,3 +26,8 @@ ul li {
 .btn:hover {
     background-color: lightsteelblue;
 }
+h2{
+    text-align: center;
+    color:blue;
+    text-shadow:2px 2px 2px yellow;
+}
