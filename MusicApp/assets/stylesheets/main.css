@@ -1,0 +1,134 @@
+/* Global CSS */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Helper Classes */
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.clear:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.row {
+    display: flex;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+
+/* #container {
+} */
+
+/* .container {
+} */
+
+/* Generic CSS */
+#header {
+
+}
+
+#main-navigation {
+
+}
+
+#banner {
+
+}
+
+#footer {
+
+}
+
+
+/* Specific CSS */
+#all_songs {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#all_songs li {
+    width: 22%;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #e0e0e0;
+    padding: 10px;
+    color: red;
+}
+#all_songs h5 {
+    font-size: 14px;
+    margin-top: 10px;
+}
+#all_songs img {
+    width: 100%;
+    height: 150px;
+}
+#all_songs .play_btn {
+    margin-right: 15px;
+}
+#playlist li{
+    margin-bottom:10px;
+}
+#playlist  li div{
+    /* justify-content: space-between; */
+    height:100px;
+}
+#playlist li div img{
+   display: block;
+   width:100%;
+   height: 100%;
+}
+#playlist li div .col_1{
+    width:20%
+}
+#playlist li div .col_2{
+    width:40%
+}
+#playlist li div .col_3{
+    width: 10%
+}
+#playlist li div button{
+    border:none;
+    width:20px;
+    height:20px;
+}
+
+#musicPlayer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgba(255,0,0,0.5);
+    padding: 10px;
+    text-align: center;
+}
+#musicPlayer audio{
+    width: 100%;
+    display: none;
+}
+input[type='range']{
+    width:85%;
+}
